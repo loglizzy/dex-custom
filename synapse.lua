@@ -20,7 +20,7 @@ function RandomCharacters(c)
     end
 end
 
-local d = game:GetObjects("rbxassetid://8186611191")[1] -- my custom dex asset, DONT change it!
+local d = game:GetObjects("rbxassetid://"..shared['IDFI139F4O312'])[1] -- my custom dex asset, DONT change it!
 d.Name = RandomCharacters(math.random(5, 20))
 d.Parent = game:GetService("CoreGui").RobloxGui
 local function e(f, g)
