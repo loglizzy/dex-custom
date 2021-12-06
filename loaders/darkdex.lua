@@ -1,7 +1,7 @@
 local old = game:GetService("CoreGui").RobloxGui:FindFirstChildOfClass('ScreenGui')
 if old then old:Remove() end
 
-local str = '' for i=1,c do
+local str = '' for _=1,math.random(9,21) do
     str = str..string.char(math.random(0,255))
 end
 
@@ -46,6 +46,4 @@ local function e(f, g)
         end
     end
     q(f)
-end
-e(d)
-print('[Dark Dex] :',str)
+end;e(d);print('[Dark Dex] :',str)
