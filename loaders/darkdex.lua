@@ -48,4 +48,4 @@ local function e(f, g)
     q(f)
 end
 e(d)
-print('[Dark Dex] : ',str)
+print('[Dark Dex] :',str)
