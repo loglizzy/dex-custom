@@ -1,28 +1,17 @@
-if game:GetService "CoreGui":FindFirstChild "Dex" then
-    game:GetService "CoreGui".Dex:Destroy()
-end
-math.randomseed(tick())
-local a = {}
-for b = 48, 57 do
-    table.insert(a, string.char(b))
-end
-for b = 65, 90 do
-    table.insert(a, string.char(b))
-end
-for b = 97, 122 do
-    table.insert(a, string.char(b))
-end
-function RandomCharacters(c)
-    if c > 0 then
-        return RandomCharacters(c - 1) .. a[math.random(1, #a)]
-    else
-        return ""
-    end
+function rdn(c)
+    local str = '' for i=1,c do
+        str = str..string.char(math.random(0,255))
+    end print('GUI:',str) return str
 end
 
+local old = game:GetService("CoreGui").RobloxGui:FindFirstChildOfClass('ScreenGui')
+if old then old:Remove() end
+
 local d = game:GetObjects("rbxassetid://"..shared['IDFI139F4O312'])[1] -- my custom dex asset, DONT change it!
-d.Name = RandomCharacters(math.random(5, 20))
+d.Name = rdn(math.random(5, 20))
+if syn or protect_gui then (syn.protect_gui or protect_gui)(d) end
 d.Parent = game:GetService("CoreGui").RobloxGui
+
 local function e(f, g)
     local function h(i, j)
         local k = {}
