@@ -1,14 +1,12 @@
-function rdn(c)
-    local str = '' for i=1,c do
-        str = str..string.char(math.random(0,255))
-    end print('GUI:',str) return str
-end
-
 local old = game:GetService("CoreGui").RobloxGui:FindFirstChildOfClass('ScreenGui')
 if old then old:Remove() end
 
+local str = '' for i=1,c do
+    str = str..string.char(math.random(0,255))
+end
+
 local d = game:GetObjects("rbxassetid://"..shared['IDFI139F4O312'])[1] -- my custom dex asset, DONT change it!
-d.Name = rdn(math.random(5, 20))
+d.Name = str
 if syn or protect_gui then (syn.protect_gui or protect_gui)(d) end
 d.Parent = game:GetService("CoreGui").RobloxGui
 
@@ -50,3 +48,4 @@ local function e(f, g)
     q(f)
 end
 e(d)
+print('[Dark Dex] : ',str)
