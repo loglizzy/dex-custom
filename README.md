@@ -2,6 +2,7 @@
 * changed icons
 * 3 color themes
 * instant search (soon)
+
 ![image](https://user-images.githubusercontent.com/72479668/146174099-253338c9-caef-41d4-a347-5a19d239d778.png)
 
 ## using
