@@ -3,8 +3,6 @@
 * 3 color themes
 * higher quality (64p) (original dex icons are 16p)
 
-![image](https://user-images.githubusercontent.com/72479668/146174099-253338c9-caef-41d4-a347-5a19d239d778.png)
-
 ## using
 just execute this code and change the theme if you want
 ```lua
