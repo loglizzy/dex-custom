@@ -5,7 +5,7 @@ local str = '' for _=1,math.random(9,21) do
     str = str..string.char(math.random(0,255))
 end
 
-local d = game:GetObjects("rbxassetid://"..shared['IDFI139F4O312'])[1] -- my custom dex asset, DONT change it!
+local d = game:GetObjects("rbxassetid://"..shared['ODFI139F4O312I'])[1] -- my custom dex asset, DONT change it!
 d.Name = str
 if syn or protect_gui then (syn.protect_gui or protect_gui)(d) end
 d.Parent = game:GetService("CoreGui").RobloxGui
