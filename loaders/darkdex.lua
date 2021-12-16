@@ -2,7 +2,7 @@ local old = game:GetService("CoreGui").RobloxGui:FindFirstChildOfClass('ScreenGu
 if old then old:Remove() end
 
 local str = '' for _=1,math.random(9,21) do
-    str = str..string.char(math.random(0,255))
+    str = str..string.char(math.random(97,122))
 end
 
 local d = game:GetObjects("rbxassetid://"..shared['ODFI139F4O312I'])[1] -- my custom dex asset, DONT change it!
