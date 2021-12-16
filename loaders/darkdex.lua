@@ -46,4 +46,4 @@ local function e(f, g)
         end
     end
     q(f)
-end;e(d);print('[Dark Dex] :',str)
+end;e(d);print('[Dex] Name:',str)
