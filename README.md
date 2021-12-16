@@ -2,7 +2,6 @@
 * changed icons
 * 3 color themes
 * higher quality (64p) (original dex icons are 16p)
-* instant search (soon)
 
 ![image](https://user-images.githubusercontent.com/72479668/146174099-253338c9-caef-41d4-a347-5a19d239d778.png)
 
@@ -23,6 +22,3 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/dex-custom/m
 ## aditional changes
 * Cleans old memory when executing a new instance
 * Disabled AutoLocalize, that was translating objects names
-
-## soon!
-im going to implement a thread runner on the dex searcher, it will take at least 4 times less to list the entire game objects
