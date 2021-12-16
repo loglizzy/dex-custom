@@ -1,7 +1,8 @@
 ## about
 * changed icons
 * 3 color themes
-* higher quality (64p) (original dex icons are 16p)
+* higher icons quality (64p) (original dex icons are 16p)
+* same or better performance
 
 ## using
 just execute this code and change the theme if you want
